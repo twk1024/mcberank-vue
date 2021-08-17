@@ -2,7 +2,7 @@
 	<div>
 		<header-title>
 			<template v-slot:title>플러그인 목록</template>
-			<template v-slot:description>총 {{ pluginsVersionMapped.length }}종류의 플러그인이 사용중입니다</template>
+			<template v-slot:description>총 {{ pluginsVersionMapped.length }}종류의 플러그인을 사용하는 중입니다</template>
 		</header-title>
 
 		<plugin-list />

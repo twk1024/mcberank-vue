@@ -2,7 +2,7 @@
 	<div>
 		<header-title>
 			<template v-slot:title>서버 추가</template>
-			<template v-slot:description>서버를 목록에 추가합니다.</template>
+			<template v-slot:description>서버를 목록에 추가합니다</template>
 		</header-title>
 
 		<b-alert show variant="info">서버를 추가하려면 서버가 온라인이어야 합니다.</b-alert>

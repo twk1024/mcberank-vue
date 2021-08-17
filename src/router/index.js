@@ -40,5 +40,20 @@ export default new VueRouter({
 			name: 'plugins',
 			component: () => import('@/views/Plugins'),
 		},
+		{
+			path: '/support',
+			name: 'support',
+			component: () => import('@/views/Support'),
+		},
+		{
+			path: '/api',
+			name: 'api',
+			component: () => import('@/views/API'),
+		},
+		{
+			path: '/app',
+			name: 'app',
+			component: () => import('@/views/MobileApp'),
+		},
 	],
 });

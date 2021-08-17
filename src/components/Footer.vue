@@ -3,9 +3,11 @@
 	<footer class="footer bg-light">
 		<div class="container py-4 text-muted">
 			<a href="https://github.com/McbeRank" class="text-secondary" style="font-size: 1.2em"> <i class="fa fa-github"></i> Github </a>
+			<a class="text-secondary" style="font-size: 1.2em">&nbsp; | &nbsp;&nbsp;</a>
+			<a href="/app" class="text-secondary" style="font-size: 1.2em"> <i class="fa fa-mobile"></i> Mobile App </a>
 
 			<div class="my-2">
-				<small>Copyright 2020. McbeRank All rights reserved.</small>
+				<small>Copyright 2021. McbeRank All rights reserved.</small>
 			</div>
 		</div>
 	</footer>
