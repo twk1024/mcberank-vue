@@ -1,5 +1,7 @@
 # mcberank-vue-cli
 
+- This is a edited version of McbeRank for [be.diamc.kr](https://be.diamc.kr/)
+
 ## Project setup
 ```
 npm install
