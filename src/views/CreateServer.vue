@@ -5,7 +5,8 @@
 			<template v-slot:description>서버를 목록에 추가합니다</template>
 		</header-title>
 
-		<b-alert show variant="info">서버를 추가하려면 서버가 온라인이어야 합니다.</b-alert>
+		<!-- <b-alert show variant="info">서버를 추가하려면 서버가 온라인이어야 합니다.</b-alert> -->
+		<b-alert show variant="info">서버를 추가하기 전 <router-link :to="{ name: 'terms' }">등록 정책</router-link>을 확인하세요.</b-alert>
 
 		<b-alert variant="success" :show="!!result.length">
 			<h4 class="alert-heading">성공적으로 등록하였습니다.</h4>

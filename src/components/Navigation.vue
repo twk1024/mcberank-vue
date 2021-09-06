@@ -41,6 +41,7 @@ export default {
 				{ name: 'plugins', label: '플러그인 목록' },
 				{ name: 'support', label: '문의하기' },
 				{ name: 'api', label: 'API' },
+				{ name: 'terms', label: '운영정책' },
 			],
 		};
 	},

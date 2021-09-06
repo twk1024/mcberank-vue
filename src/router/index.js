@@ -25,6 +25,11 @@ export default new VueRouter({
 			component: () => import('@/views/CreateServer'),
 		},
 		{
+			path: '/terms',
+			name: 'terms',
+			component: () => import('@/views/RegisterRule'),
+		},
+		{
 			path: '/servers/:slug',
 			name: 'server',
 			props: true,
