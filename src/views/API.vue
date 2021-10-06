@@ -5,7 +5,7 @@
 			<template v-slot:description>API 사용에 대한 안내사항입니다</template>
 		</header-title>
 
-		<b-alert show variant="warning">API에서 제공되는 기능을 사용하려면 서버가 MCBE Rank에 등록되어야 합니다.</b-alert>
+		<b-alert show variant="warning">일부 API는 MCBE Rank에 등록된 서버만 사용 가능합니다</b-alert>
 
 		<br/>
 		<h3>API Documentation</h3>
@@ -30,6 +30,16 @@
 		<br/>
 		<img src="https://cloud.diamc.kr/images/black_bar.png" alt="BlackBar">
 		<br/><br/>
+		<h4>특정 기간의 서버 접속자 기록 불러오기</h4>
+		<br/>
+		<p>GET <a href="https://be.diamc.kr/api/stats/diamc.kr:19131/numplayers?from=2021-08-17T23:58:50.319Z&to=2021-08-18T01:00:27.775Z">https://be.diamc.kr/api/stats/[hostname]:[port]/numplayers?from=YY-MM-DD:Hour:Minute:Seconds&to=YY-MM-DD:Hour:Minute:Seconds</a></p>
+		<br/>
+		<h6>- [YY-MM-DD:Hour:Minute:Seconds]는 [년도-월-일:시간:분:초]를 의미하며 2021-10-24:06:30:21와 같은 UTC 형식으로 입력해야 합니다</h6>
+		<h6>- 년도를 제외한 나머지 항목은 생략할 수 있습니다</h6>
+
+		<br/>
+		<img src="https://cloud.diamc.kr/images/black_bar.png" alt="BlackBar">
+		<br/><br/>
 		<h4>플러그인 정보 불러오기</h4>
 		<br/>
 		<p>GET <a href="http://be.diamc.kr/api/plugins">http://be.diamc.kr/api/plugins</a></p>
@@ -47,11 +57,6 @@
 		<h5>BedrockRank</h5>
 		<p>PMMP에서 서버 순위를 조회 및 출력합니다.</p>
         <p><a href="https://github.com/twk1024/BedrockRank">Source Code</a></p>
-		<br/>
-
-		<h5>DIA-McbeRank <small>(Deprecated)</small></h5>
-		<p>PMMP 서버에 접속할 시 서버의 순위를 불러옵니다.</p>
-		<p><a href="https://github.com/twk1024/DIA-McbeRank">Source Code</a></p>
 		<br/>
 	</div>
 </template>

@@ -7,7 +7,7 @@
 			<a href="/app" class="text-secondary" style="font-size: 1.2em"> <i class="fa fa-mobile"></i> Mobile App </a>
 
 			<div class="my-2">
-				<small>Copyright 2021. McbeRank All rights reserved.</small>
+				<router-link :to="{ name: 'terms' }"><small>운영 정책</small></router-link><small> - Copyright 2021. McbeRank All rights reserved.</small>
 			</div>
 		</div>
 	</footer>

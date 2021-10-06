@@ -23,7 +23,7 @@
 		<h4>다음과 같은 서버는 등록할 수 없습니다</h4>
 		<br/>
 
-		<h6><img src="https://cloud.diamc.kr/images/red-x-icon.png" width="13" height="13" alt="no"> 해외 서버</h6>
+		<h6><img src="https://cloud.diamc.kr/images/red-x-icon.png" width="13" height="13" alt="no"> 해외를 대상으로 서비스하는 서버</h6>
 		<br/>
 		<h6><img src="https://cloud.diamc.kr/images/red-x-icon.png" width="13" height="13" alt="no"> 쿼리가 비허용되어 통계 수집이 불가능한 서버</h6>
 		<br/><br/>
@@ -36,7 +36,7 @@
 		<br/>
 		<h6><img src="https://cloud.diamc.kr/images/red-x-icon.png" width="13" height="13" alt="no"> 특정 플레이어를 대상으로 하는 비공개 서버 (예: 친구와 플레이하기 위한 야생서버)</h6>
 		<br/>
-		<h6><img src="https://cloud.diamc.kr/images/red-x-icon.png" width="13" height="13" alt="no"> 접속자 수와 같은 순위에 영향을 주는 정보를 임의로 조작한 서버</h6>
+		<h6><img src="https://cloud.diamc.kr/images/red-x-icon.png" width="13" height="13" alt="no"> 순위에 영향을 주는 정보를 임의로 조작한 서버 (예: 접속자 수)</h6>
 		<br/><br/>
 	</div>
 </template>
