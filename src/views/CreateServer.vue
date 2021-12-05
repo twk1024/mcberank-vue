@@ -6,7 +6,8 @@
 		</header-title>
 
 		<!-- <b-alert show variant="info">서버를 추가하려면 서버가 온라인이어야 합니다.</b-alert> -->
-		<b-alert show variant="info">서버를 추가하기 전 <router-link :to="{ name: 'terms' }">등록 정책</router-link>을 확인하세요.</b-alert>
+		<!-- <b-alert show variant="info">서버를 추가하기 전 <router-link :to="{ name: 'terms' }">등록 정책</router-link>을 확인하세요.</b-alert> -->
+		<b-alert show variant="warning">현재 PMMP 4.0을 사용하는 서버는 등록할 수 없습니다. 빠른 시일 내에 해결하겠습니다.</b-alert>
 
 		<b-alert variant="success" :show="!!result.length">
 			<h4 class="alert-heading">성공적으로 등록하였습니다.</h4>

@@ -5,8 +5,6 @@
 			<template v-slot:description>API 사용에 대한 안내사항입니다</template>
 		</header-title>
 
-		<b-alert show variant="warning">일부 API는 MCBE Rank에 등록된 서버만 사용 가능합니다</b-alert>
-
 		<br/>
 		<h3>API Documentation</h3>
 		<img src="https://cloud.diamc.kr/images/black_bar.png" alt="BlackBar">

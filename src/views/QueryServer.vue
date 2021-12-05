@@ -5,6 +5,8 @@
 			<template v-slot:description>서버의 정보를 확인할 수 있습니다</template>
 		</header-title>
 
+		<b-alert show variant="warning">현재 PMMP 4.0을 사용하는 서버는 조회할 수 없습니다. 빠른 시일 내에 해결하겠습니다.</b-alert>
+
 		<server-form :form="form" :requesting="requesting" :error="error" @submit="onSubmit" />
 
 		<template v-if="Object.keys(server).length">

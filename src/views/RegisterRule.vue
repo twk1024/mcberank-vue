@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<header-title>
-			<template v-slot:title>MCBE Rank 운영정책</template>
+			<template v-slot:title>서버 추가 주의사항</template>
 			<template v-slot:description>서버 등록에 대한 안내사항입니다</template>
 		</header-title>
 
